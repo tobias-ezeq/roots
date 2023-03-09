@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+header nav ul li a {
+    color: rgb(41, 63, 20);
+}
+/* nth-child es una clase para llamar a un hijo en especifico* */
+.titulo {
+    color: rgb(41, 63, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+header nav ul{
+    list-style-type: none;
+}
+
+body {
+    background-color: rgba(217, 244, 199, 0.4);
+}
+.class-grid {
+    display: grid;
+    border: 4px solid aquamarine;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.suculenta {
+    border-radius: 10px;
+    width: 250px;
+}
+.navegador {
+    float: right;
+}
+.img-jabon {
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+}
+.navegador {
+    list-style-position:outside;
+}
+.map {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+.img-logo {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    list-style-type: disc;
+}

@@ -1,0 +1,103 @@
+/* barra de navegacion*/
+.navbar {
+    padding: 15px;
+    background-color: rgb(208, 241, 208);
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* seccion principal*/
+.section {
+    align-items: stretch;
+    background-color: rgb(225, 245, 225);
+    min-height: 450px;
+    text-align: center;
+}
+.titulo {
+    font-size: 75px;
+}
+.imagen-section {
+    width: 400px;
+    border-radius: 50px;
+}
+.section-principal {
+    padding: 50px;
+}
+.subtitulo {
+    font-size: 35px;
+    color: rgb(27, 54, 45);
+}
+.section-inferior {
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 2px solid rgb(27, 54, 45);
+}
+
+.description-products-uno {
+    background-color: rgb(181, 199, 181);
+}
+.row-img-inferior {
+    padding: 100px;
+}
+/*descripcion productos*/
+.description-products-uno {
+    height: 500px;
+    padding-top: 25px;
+}
+.contenedor-products {
+    max-width: 600px;
+    text-align: center;
+    justify-content: center;
+}
+.products-titulo {
+    font-size: 50px;
+    padding: 15px 0;
+}
+
+/*footer*/
+.footer {
+    background-color: rgb(208, 241, 208);
+}
+
+/*jabones*/
+.jabones {
+    padding: 20px 30px 40px 30px;
+    height: 600px;
+}
+.seccion-clara {
+    background-color: rgb(208, 241, 208);
+}
+
+.jabones__diarios {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.jabones img {
+    padding: 9px 10px;
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge {
+    margin: 5px;
+}
+
+
+
+/* media adaptable*/
+@media screen and (min-width:700px) {
+    .section-inferior-img {
+        max-width: 600px;
+    }
+}
+
